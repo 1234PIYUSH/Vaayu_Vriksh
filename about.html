@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="Images/Logo.jpg" href="Images/Logo.jpg">
+    <title>वायु वृक्षः - वनं भवतः समीपम् आनयन्।</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #2c3e50;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #e0f7fa, #a7ffeb);
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f8f8f8;
+            padding: 10px 20px;
+            height: 70px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            height: 50px;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex: 2;
+            justify-content: center;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+
+        .contact {
+            text-align: right;
+            font-size: 14px;
+        }
+
+        .about {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .about h1 {
+            color: #1b5e20;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-size: 32px;
+            letter-spacing: 1.5px;
+        }
+
+        .about h2 {
+            color: #00796b;
+            margin-top: 20px;
+            font-size: 24px;
+        }
+
+        .about p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #34495e;
+        }
+
+        .highlights {
+            background: rgba(38, 166, 91, 0.1);
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border-left: 5px solid #26a69a;
+        }
+
+        .about ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .about li {
+            font-size: 18px;
+            background: #26a69a;
+            color: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, background 0.3s;
+        }
+
+        .about li:hover {
+            transform: translateY(-5px);
+            background: #00796b;
+        }
+
+        @media (max-width: 768px) {
+            .about {
+                padding: 25px;
+                margin: 20px;
+            }
+
+            .about h1 {
+                font-size: 28px;
+            }
+
+            .about h2 {
+                font-size: 20px;
+            }
+
+            .about p {
+                font-size: 16px;
+            }
+
+            .about li {
+                font-size: 16px;
+                padding: 10px;
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 4px;
+            background: #333;
+            color: white;
+        }
+
+        @media (max-width: 480px) {
+            .about {
+                padding: 20px;
+                margin: 15px;
+            }
+
+            .about h1 {
+                font-size: 24px;
+            }
+
+            .about h2 {
+                font-size: 18px;
+            }
+
+            .about p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Images/Logo.jpg" alt="" class="logo">
+        <nav>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About Us</a>
+            <a href="contact.html" class="nav-link">Contact US</a>
+        </nav>
+        <div class="contact">
+            <p><u>Contact Us</u></p>
+            <p>Email: info@Vaayu_Vriksh.com</p>
+            <p>Phone: +91 98765 43210</p>
+        </div>
+    </header>
+
+    <section class="about">
+        <h1>About Us</h1>
+        <h2>Vision</h2>
+        <p>To revolutionize urban sustainability by merging biotechnology and smart infrastructure, creating cleaner, greener, and healthier cities for future generations.</p>
+        
+        <h2>Our Mission</h2>
+        <p>Improving air quality while promoting sustainability, combining innovation with economic growth for healthier, greener cities.</p>
+        
+        <h2>Our Product & Services</h2>
+        <div class="highlights">
+            <ul>
+                <li>Cleans the air using microalgae technology</li>
+                <li>Generates revenue through digital advertising on built-in LED screens</li>
+                <li>Enhances urban spaces with sustainable infrastructure</li>
+            </ul>
+        </div>
+        
+        <h2>Our Idea</h2>
+        <p>Our company is an innovative urban sustainability startup dedicated to improving air quality and urban infrastructure. Recognizing the limitations of traditional green infrastructure in high-density urban areas, we have developed a cutting-edge solution: Liquid Trees designed to act as both a pollution-filtering system and a functional street bench.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vaayu Vriksh. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="Images/Logo.jpg" href="Images/Logo.jpg">
+    <title>वायु वृक्षः - वनं भवतः समीपम् आनयन्।</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+    body{ 
+        background: linear-gradient(to right, #e0f7fa, #a7ffeb);
+    }
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex: 2;
+            justify-content: center;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f8f8f8;
+        padding: 20px 10px;
+        height: 70px; 
+       /* background: linear-gradient(90deg, #4CAF50, #2E8B57); */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    
+    .logo {
+        height: 80px; 
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        gap: 15px; 
+        flex: 2;
+        justify-content: center;
+        color: white;
+        transition: background 0.3s ease;
+    }
+    
+    .nav-link {
+        text-decoration: none;
+        color: #007bff;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+    
+    .nav-link:hover {
+        text-decoration: underline;
+    }
+
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <header class="flex justify-between items-center p-4 bg-white shadow-md">
+        <img src="Images/Logo.jpg" alt="Logo" class="w-16">
+        <nav>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About Us</a>
+            <a href="contact.html" class="nav-link">Contact US</a>
+        </nav>
+        <div class="text-right">
+            <p class="font-semibold underline">Contact Us</p>
+            <p>Email: info@Vaayu_Vriksh.com</p>
+            <p>Phone: +91 98765 43210</p>
+        </div>
+    </header>
+
+    <div class="max-w-4xl mx-auto my-10 flex flex-col md:flex-row gap-6">
+        <div class="w-full md:w-1/2 p-6 bg-white shadow-lg rounded-lg flex flex-col justify-center">
+            <h2 class="text-2xl font-bold text-center text-green-700">Get in Touch</h2>
+            <p class="text-gray-600 text-center mt-4">Your feedback and questions are important to us. We value every opportunity to improve and serve you better. Please don’t hesitate to reach out—we’re here to listen and assist you with care and attention.</p>
+        </div>
+    
+        <div class="w-full md:w-1/2 p-6 bg-white shadow-lg rounded-lg">
+            <h2 class="text-2xl font-bold text-center text-green-700">Contact Us</h2>
+            <p class="text-gray-600 text-center mt-2">We'd love to hear from you!</p>
+            
+            <form id="contactForm" class="mt-6">
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-semibold">Name</label>
+                    <input type="text" id="name" class="w-full p-2 border border-gray-300 rounded mt-1" placeholder="Your Name" required>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-semibold">Email</label>
+                    <input type="email" id="email" class="w-full p-2 border border-gray-300 rounded mt-1" placeholder="Your Email" required>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-semibold">Message</label>
+                    <textarea id="message" class="w-full p-2 border border-gray-300 rounded mt-1" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="w-full bg-green-600 text-white py-2 rounded hover:bg-green-700 transition">Send Message</button>
+            </form>
+            <p id="responseMessage" class="text-center text-green-600 font-semibold mt-4 hidden">Message sent successfully!</p>
+        </div>
+    </div>
+
+    <div class="max-w-4xl mx-auto my-10 flex flex-col md:flex-row gap-6 bg-white shadow-lg rounded-lg p-6">
+        <div class="w-full md:w-1/2">
+            <iframe class="w-full h-48 md:h-64 rounded-lg"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.9053037219216!2d72.96320187518753!3d19.173057882026448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b91aa9e9d82b%3A0x4a8e5c09bfcd939c!2sPlot%20No%20-%20f-6%2F4%2C%20Road%20no%20-%2022%2C%20Near-Passport%20Office%20Wagle%20Estate%20Thane%20(west)%2C%20Thane%2C%20Maharashtra-400604!5e0!3m2!1sen!2sin!4v1709386000000!5m2!1sen!2sin"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <div class="w-full md:w-1/2 p-6">
+            <h2 class="text-2xl font-bold text-green-700">LOCATION</h2>
+            <p class="text-gray-600 mt-2">We're here to help.</p>
+            <p class="mt-4"><strong>Reach Out To Us!</strong></p>
+            <p class="mt-2">📍 Plot No - f-6/4, Road no - 22, Near-Passport Office Wagle Estate Thane (west), Thane, Maharashtra-400604</p>
+            <p class="mt-2">📧 info@Vaayu_Vriksh.com</p>
+            <p class="mt-2">📞 +91 9876543210</p>
+        </div>
+    </div>
+
+    <footer class="bg-teal-600 p-8 text-white text-center mt-10">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="text-left">
+                <img src="Images/Logo.jpg" alt="Eco Vision Logo" class="w-20 mb-2">
+                <p class="font-bold text-lg">Vaayu Vriksh</p>
+                <p class="text-sm">Plot No - f-6/4, Road no - 22, Near-Passport Office Wagle Estate Thane (west), <br> Thane, Maharashtra 400604</p>
+            </div>
+            <div>
+                <h3 class="font-semibold text-lg">Company</h3>
+                <p><a href="#" class="hover:underline">About Us</a></p>
+                <p><a href="#" class="hover:underline">Careers</a></p>
+                <p><a href="#" class="hover:underline">News & Articles</a></p>
+            </div>
+            <div>
+                <h3 class="font-semibold text-lg">Support</h3>
+                <p><a href="#" class="hover:underline">Help Center</a></p>
+                <p><a href="#" class="hover:underline">Ticket</a></p>
+                <p><a href="#" class="hover:underline">Contact Us</a></p>
+            </div>
+            <div>
+                <h3 class="font-semibold text-lg">Emergency Service</h3>
+                <p class="text-lg font-bold">+91 90824 23128</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
